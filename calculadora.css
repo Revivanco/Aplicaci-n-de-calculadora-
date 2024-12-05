@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Ajusta este valor para el espacio entre los botones */
+    width: 500px;
+    height: 500px;
+  }
+  
+  .grid-item {
+    padding: 10px; /* Ajusta el tamaño interno del botón */
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    
+   
+  }
+  
+  .grid-item:hover {
+    background-color: #ddd; /* Cambia el color cuando el ratón pase por encima */
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-flow: row;
+    border: 3px solid;
+    border-radius: 8px;
+  }
